@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
-#include <arduino.h>
+#include <Arduino.h>
 #include <ArduinoOTA.h>
 #include "everblu_meters.h"
 #include <private.h> // Passwords etc. not for GitHub

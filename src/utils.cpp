@@ -2,7 +2,7 @@
  /*  it is exposed just to demonstrate CC1101 capability to reader water meter indexes */
  /*  there is no Warranty on radian_trx SW */
 
- #include <arduino.h>
+ #include <Arduino.h>
 
  #include "everblu_meters.h"
  #include <private.h> // Passwords etc. not for GitHub
@@ -275,4 +275,3 @@
    TS_len_u8=encode2serial_1_3(to_encode,sizeof(to_encode),&outputBuffer[sizeof(synch_pattern)]);
    return TS_len_u8+sizeof(synch_pattern);
  }
- 
