@@ -15,3 +15,7 @@
 #define METER_SERIAL 257000
 #define FREQUENCY 433.700007
 #define GDO0 5 //header 11 
+
+// Change according to the time of day you want the reading to be taken
+#define UTC_SCHEDULED_HOUR 10
+#define UTC_SCHEDULED_MIN 0
